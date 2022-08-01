@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+package action;
+
+option go_package = "github.com/dukhyungkim/libharago/gen/go/proto/action;action";
+
+enum ActionType {
+  NOTHING = 0;
+  UP = 1;
+  DOWN = 2;
+}
+
+message ActionRequest {
+  ActionType type = 1;
+  string space = 2;
+  oneof Request_OneOf {
+    DeployRequest req_deploy = 3;
+  }
+
+  message DeployRequest {
+    string name = 1;
+    string resource_url = 2;
+  }
+}
+
+message ActionResponse {
+  ActionType type = 1;
+  string space = 2;
+  oneof Response_OneOf {
+    DeployResponse resp_deploy = 3;
+  }
+
+  message DeployResponse {
+    string host = 1;
+    string company = 2;
+    string resource_url = 3;
+    string text = 4;
+  }
+}
