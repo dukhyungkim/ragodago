@@ -1,19 +1,20 @@
 package handler
 
 import (
-	"google.golang.org/api/chat/v1"
-	"harago/cmd"
+	"harago/command"
 	"harago/entity"
 	"harago/gservice/gchat"
 	"harago/repository"
+
+	"google.golang.org/api/chat/v1"
 )
 
 type DMHandler struct {
-	cmdExecutor *cmd.Executor
+	cmdExecutor *command.Executor
 	repo        *repository.DB
 }
 
-func NewDMHandler(cmdExecutor *cmd.Executor, repo *repository.DB) gchat.Handler {
+func NewDMHandler(cmdExecutor *command.Executor, repo *repository.DB) gchat.Handler {
 	return &DMHandler{cmdExecutor: cmdExecutor, repo: repo}
 }
 

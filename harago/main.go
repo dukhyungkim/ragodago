@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"harago/cmd"
+	"harago/command"
 	"harago/config"
 	"harago/gservice"
 	"harago/gservice/gchat"
@@ -60,7 +60,7 @@ func main() {
 	defer streamClient.Close()
 	log.Println("connect to nats ... success")
 
-	executor := cmd.NewExecutor()
+	executor := command.NewExecutor()
 	if err = executor.LoadCommands(cfg, streamClient, etcdClient); err != nil {
 		log.Panicln(err)
 	}

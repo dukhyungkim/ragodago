@@ -1,9 +1,9 @@
-package cmd
+package command
 
 import (
 	"fmt"
-	"harago/cmd/cmddown"
-	"harago/cmd/cmdtemplate"
+	"harago/command/cmddown"
+	"harago/command/cmdtemplate"
 	"harago/common"
 	"harago/config"
 	"harago/gservice/gchat"
@@ -14,9 +14,9 @@ import (
 	"github.com/dukhyungkim/harbor-client"
 	"google.golang.org/api/chat/v1"
 
-	"harago/cmd/cmdharbor"
-	"harago/cmd/cmdping"
-	"harago/cmd/cmdup"
+	"harago/command/cmdharbor"
+	"harago/command/cmdping"
+	"harago/command/cmdup"
 )
 
 type Command interface {
