@@ -23,10 +23,8 @@ github.com/coreos/go-systemd/v22 v22.3.2/go.mod h1:Y58oyj3AT4RCenI/lSvhwexgC+NSV
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
-github.com/dukhyungkim/libharago v0.0.0-20220222141021-d0388c62549b h1:5Bf5Nn5QdnzPBS6EMz7p2RriQnGS6BS2sXvoU259YnI=
-github.com/dukhyungkim/libharago v0.0.0-20220222141021-d0388c62549b/go.mod h1:lbR50PKYohx6qo/lfK22iFlwPgZsSJ/bgX9SxLOuh5I=
-github.com/dukhyungkim/libharago v0.0.0-20220419154834-336f3d0107a8 h1:VlDQaypHOLis7OZSfJizKnTowCBz4LWspvZX53lyoHQ=
-github.com/dukhyungkim/libharago v0.0.0-20220419154834-336f3d0107a8/go.mod h1:lbR50PKYohx6qo/lfK22iFlwPgZsSJ/bgX9SxLOuh5I=
+github.com/dukhyungkim/ragodago v0.0.0-20220802105024-66078acff4ae h1:pg8fbHeCaJN4Ns/qQpIhR0zYH07LwOj01uDJnqniUcw=
+github.com/dukhyungkim/ragodago v0.0.0-20220802105024-66078acff4ae/go.mod h1:bKIpc9BH2Ua3nAH0qSHHjNbWuFCsi6LJvuMWQKbQsck=
 github.com/dustin/go-humanize v1.0.0/go.mod h1:HtrtbFcZ19U5GC7JDqmcUSB87Iq5E25KnS6fMYU6eOk=
 github.com/envoyproxy/go-control-plane v0.9.0/go.mod h1:YTl/9mNaCwkRvm6d1a2C3ymFceY/DCBVvsKhRF0iEA4=
 github.com/envoyproxy/go-control-plane v0.9.1-0.20191026205805-5f8ba28d4473/go.mod h1:YTl/9mNaCwkRvm6d1a2C3ymFceY/DCBVvsKhRF0iEA4=

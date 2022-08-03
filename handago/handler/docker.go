@@ -16,7 +16,7 @@ import (
 	"strings"
 	"time"
 
-	pbAct "github.com/dukhyungkim/libharago/gen/go/proto/action"
+	pbAct "github.com/dukhyungkim/ragodago/libharago/gen/go/proto/action"
 	clientv3 "go.etcd.io/etcd/client/v3"
 )
 

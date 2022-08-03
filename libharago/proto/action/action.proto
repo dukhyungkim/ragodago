@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package action;
 
-option go_package = "github.com/dukhyungkim/libharago/gen/go/proto/action;action";
+option go_package = "github.com/dukhyungkim/ragodago/libharago/gen/go/proto/action;action";
 
 enum ActionType {
   NOTHING = 0;

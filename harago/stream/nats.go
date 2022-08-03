@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	pbAct "github.com/dukhyungkim/libharago/gen/go/proto/action"
+	pbAct "github.com/dukhyungkim/ragodago/libharago/gen/go/proto/action"
 	"github.com/nats-io/nats.go"
 	"google.golang.org/protobuf/proto"
 )

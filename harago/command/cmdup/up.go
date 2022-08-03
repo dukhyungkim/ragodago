@@ -7,7 +7,7 @@ import (
 	"harago/util"
 	"strings"
 
-	pbAct "github.com/dukhyungkim/libharago/gen/go/proto/action"
+	pbAct "github.com/dukhyungkim/ragodago/libharago/gen/go/proto/action"
 	"github.com/jessevdk/go-flags"
 	"google.golang.org/api/chat/v1"
 )

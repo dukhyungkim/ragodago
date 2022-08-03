@@ -4,7 +4,7 @@ go 1.17
 
 require (
 	github.com/dukhyungkim/harbor-client v0.0.0-20220125134006-3957a8318a18
-	github.com/dukhyungkim/libharago v0.0.0-20220419154834-336f3d0107a8
+	github.com/dukhyungkim/ragodago v0.0.0-20220802105024-66078acff4ae
 	github.com/gofiber/fiber/v2 v2.23.0
 	github.com/ilyakaznacheev/cleanenv v1.2.6
 	github.com/jessevdk/go-flags v1.5.0

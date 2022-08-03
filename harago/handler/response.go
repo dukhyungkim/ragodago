@@ -8,7 +8,7 @@ import (
 	"log"
 	"strings"
 
-	pbAct "github.com/dukhyungkim/libharago/gen/go/proto/action"
+	pbAct "github.com/dukhyungkim/ragodago/libharago/gen/go/proto/action"
 	"google.golang.org/api/chat/v1"
 )
 

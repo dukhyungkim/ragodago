@@ -2,7 +2,8 @@ package common
 
 import (
 	"fmt"
-	pbAct "github.com/dukhyungkim/libharago/gen/go/proto/action"
+
+	pbAct "github.com/dukhyungkim/ragodago/libharago/gen/go/proto/action"
 )
 
 var (

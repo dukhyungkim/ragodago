@@ -6,7 +6,7 @@ import (
 	"log"
 
 	harborModel "github.com/dukhyungkim/harbor-client/model"
-	pbAct "github.com/dukhyungkim/libharago/gen/go/proto/action"
+	pbAct "github.com/dukhyungkim/ragodago/libharago/gen/go/proto/action"
 )
 
 type subjectMapper struct {
